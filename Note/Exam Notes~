@@ -1,0 +1,6 @@
+Perfect - filled at all levels
+Full - every node with children has 2 children
+Complete - filled at all levels except possibly the last, but needs to be filled from left
+Balanced - height of left and right are within one of each other
+
+ 

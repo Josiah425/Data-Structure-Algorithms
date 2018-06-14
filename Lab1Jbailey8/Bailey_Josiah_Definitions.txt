@@ -1,0 +1,5 @@
+pwd - Outputs the name of the directory path user is currently in
+g++ - C and C++ compiler
+factor - Outputs the prime factorization of a given number
+mv - moves files to different directories
+ls - lists all of the contents in current directory

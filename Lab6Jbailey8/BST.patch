@@ -1,0 +1,11 @@
+--- BST.cpp	2016-11-15 18:34:07.000000000 -0500
++++ BST_new.cpp	2016-11-17 21:14:07.583633229 -0500
+@@ -57,7 +57,7 @@
+ 	BST<T> * replacement;
+ 	BST<T> * previous2;
+ 	//if we are removing the root, we update it's value and delete the replacement node
+-	if(traverse && traverse->val == nodeVal){
++	if(!traverse && traverse->val == nodeVal){
+ 		//if the root's right node is not null, we find a successor on right
+ 		if(this->right){
+ 			replacement = this->right;
